@@ -20,6 +20,7 @@ img {
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: hsl(212, 45%, 89%);
@@ -56,3 +57,13 @@ p {
     border-radius: 2rem;
 }
  
+ .attribution {
+   font-size: 2rem;
+   color: rgb(0, 0, 0);
+   font-family: 'Outfit', sans-serif;
+   margin-top: 2rem;
+} 
+.attribution a {
+    text-decoration: none;
+    color: black;
+}
