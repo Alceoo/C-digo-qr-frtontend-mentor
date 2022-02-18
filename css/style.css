@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*font-family: 'Outfit', sans-serif;*/
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*este es un hack para que se acoplen los rems que serán nuestras medidas
+    a 10 píxeles por rem */
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+img {
+    max-width: 100%;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3rem;
+    color: hsl(217, 45%, 22%) ;
+}
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 1.6rem;
+    color: rgb(168, 166, 166)
+}
+/**/
+
+.box {
+    padding: 2.5rem;
+    width: 50rem;
+    height: max-content;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 3rem;
+    background-color: hsl(0, 0%, 100%);
+  
+}
+.img {
+    border-radius: 2rem;
+}
+ 
